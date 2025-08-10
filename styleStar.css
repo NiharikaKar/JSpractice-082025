@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgb(231, 173, 26) (120, 1%, 83%);
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  max-width: 33rem;
+  background: #fff;
+  margin: 0 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.star {
+  font-size: 10vh;
+  cursor: pointer;
+}
+.one {
+  color: rgb(255, 0, 0);
+}
+.two {
+  color: rgb(255, 106, 0);
+}
+.three {
+  color: rgb(251, 255, 120);
+}
+.four {
+  color: rgb(255, 255, 0);
+}
+.five {
+  color: rgb(24, 159, 14);
+}
+
+.cardC {
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(222, 222, 222);
+    margin-top: 10px;
+}
+.text {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.reply {
+    color: rgb(84, 84, 233);
+    cursor: pointer;
+    margin-top: 5px;
+}
+.comment-details {
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.input {
+    height: 30px;
+    border-radius: 10px;
+}
+.btn {
+    color: white;
+    margin-left: 5px;
+    background-color: rgb(135, 135, 235);
+    border: 0px;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.all-comment:not(:first-child) {
+    margin-left: 4rem;
+}

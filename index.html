@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Rating and Comments</title>
+    <link rel="stylesheet" href="styleStar.css" />
+</head>
+<body>
+    <div class="card">
+        <h1>JavaScript Star Rating and Comments</h1>
+        <br />
+        <span onclick="str(1)" class="star">*</span>
+        <span onclick="str(2)" class="star">*</span>
+        <span onclick="str(3)" class="star">*</span>
+        <span onclick="str(4)" class="star">*</span>
+        <span onclick="str(5)" class="star">*</span>
+        <h3 id="output">Rating is: 0/5</h3>
+    </div>
+    <div class="container">
+        <div id="comment-container" 
+             class="comment-container">
+            <div class="all-comment">
+                <div class="cardC">
+                    <span class="text">Comment</span>
+                    <span id="reply" 
+                          class="reply">
+                          Add Reply
+                      </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="indexStar.js"></script>
+</body>
+</html>
